@@ -2,12 +2,9 @@ import '../styles/Info.css';
 
 function Info({infoTheme}) {
 
-    {/* Constantes */}
 
 
-
-
-    {/* CONSTANTES, HOOK ET METHODES */}
+    {/* CONTENU DE LA PAGE */}
     return (
         <>
 
@@ -28,6 +25,8 @@ function Info({infoTheme}) {
                     <div className="valeur">IUT Nancy-Charlemagne</div>
                 </div>
             </div>
+
+            <p id={"para"}> Ce projet a été réalisé pour tester, apprendre et comprendre la librairie <a href={"https://react.dev"} target={"_blank"}>React</a> </p>
 
         </>
     );

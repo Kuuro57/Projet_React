@@ -38,11 +38,16 @@ function Home({ infoTheme }) {
         setDisplayTextPhp(false);
     };
 
+
+
+
+
+
     {/* CONTENU DE LA PAGE */}
     return (
         <>
             <h1 id={"title"}> Bienvenue sur mon site </h1>
-            <h4 id={"subtitle"}> Fait en React + Vite </h4>
+            <h4 id={"subtitle"}> Utilisant la librairie React </h4>
 
             <br />
             <br />

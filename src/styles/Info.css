@@ -35,6 +35,14 @@
 }
 
 
+/* Style de la phrase en dessous du tableau */
+#para {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+
 
 /*
       ##################
@@ -42,7 +50,7 @@
       ##################
 */
 
-/* */
+/* Thème clair du tableau */
 #lightInfo>.tableau {
     background-color: #5c5c5c;
     border: 1px solid #333;
@@ -50,7 +58,7 @@
 }
 
 
-/* */
+/* Thème clair des labels */
 #lightInfo>.tableau>.label {
     color: #ccc;
     background-color: #333;
@@ -58,7 +66,7 @@
 }
 
 
-/* */
+/* Thème clair des valeurs */
 #lightInfo>.tableau>.valeur {
     color: white;
 }
@@ -74,7 +82,7 @@
       ################
 */
 
-/* */
+/* Thème noir du tableau */
 #darkInfo>.tableau {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -82,7 +90,7 @@
 }
 
 
-/* */
+/* Thème noir des labels */
 #darkInfo>.tableau>.label {
     color: #555;
     background-color: #eaeaea;
@@ -90,7 +98,7 @@
 }
 
 
-/* */
+/* Thème noir des valeurs */
 #darkInfo>.tableau>.valeur {
     color: #333;
 }
