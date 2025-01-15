@@ -1,0 +1,112 @@
+/* Style du titre principal */
+#title {
+    text-align: center;
+}
+
+
+/* Style du tableau */
+.tableau {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+
+/* Style des éléments de la grille */
+.tableau>div {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+
+/* Style des labels */
+.tableau>.label {
+    font-weight: bold;
+}
+
+
+/* Style des valeurs */
+.tableau>.valeur {
+    color: #333;
+    justify-self: center;
+}
+
+
+
+/*
+      ##################
+    ###  THEME CLAIRE  ###
+      ##################
+*/
+
+/* */
+#lightInfo>.tableau {
+    background-color: #5c5c5c;
+    border: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* */
+#lightInfo>.tableau>.label {
+    color: #ccc;
+    background-color: #333;
+    border-right: 2px solid #444;
+}
+
+
+/* */
+#lightInfo>.tableau>.valeur {
+    color: white;
+}
+
+
+
+
+
+
+/*
+      ################
+    ###  THEME NOIR  ###
+      ################
+*/
+
+/* */
+#darkInfo>.tableau {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* */
+#darkInfo>.tableau>.label {
+    color: #555;
+    background-color: #eaeaea;
+    border-right: 2px solid #ddd;
+}
+
+
+/* */
+#darkInfo>.tableau>.valeur {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

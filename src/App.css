@@ -1,0 +1,177 @@
+/* Styles généraux pour la page entière */
+html, body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scrollbar-width: none;
+}
+
+
+/* Conteneur principal de toute la page */
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: all 0.4s ease;
+}
+
+
+/* Styles généraux pour la navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    transition: all 0.4s ease;
+}
+
+
+/* Styles généraux des boutons de la navbar */
+.navbar_btn {
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Ajoute une transition au survol */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer; /* Change le curseur en pointeur */
+}
+
+
+/* Styles de la checkbox de la navbar */
+.navbar_checkbox {
+    margin-left: auto; /* Pousse la checkbox vers la droite */
+}
+
+
+/* Contenu de la page */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+/* Styles du footer */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: gray;
+}
+
+
+
+
+/*
+      ##################
+    ###  THEME CLAIRE  ###
+      ##################
+*/
+
+/* Thème blanc de la page */
+#lightPage {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Thème blanc de la navbar */
+#lightNavbar {
+    background-color: #f6f6f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* */
+#lightBtnNavbar {
+    background-color: #e5e5e5;
+    color: #4e4e4e;
+}
+
+
+/* */
+#lightBtnNavbar:hover {
+    transform: scale(1.1); /* Augement légèrement la taille du bouton */
+    box-shadow: 0 4px 10px #4e4e4e;
+}
+
+
+
+
+
+/*
+      ################
+    ###  THEME NOIR  ###
+      ################
+*/
+
+/* Thème noir de la page */
+#darkPage {
+    background-color: #494949;
+    color: white;
+}
+
+
+/* Thème noir de la navbar*/
+#darkNavbar {
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Thème noir des boutons */
+#darkBtnNavbar {
+    background-color: #555;
+    color: white;
+}
+
+
+/* Thème noir des boutons au survol */
+#darkBtnNavbar:hover {
+    background-color: #1e90ff;
+    color: white;
+    transform: scale(1.1); /* Augement légèrement la taille du bouton */
+    box-shadow: 0 4px 10px rgba(30, 144, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
