@@ -37,9 +37,9 @@
 
 /* Style de la phrase en dessous du tableau */
 #para {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
+    display: block;
+    justify-self: center;
+    padding-top: 1.5rem;
 }
 
 

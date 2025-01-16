@@ -26,7 +26,7 @@ function Info({infoTheme}) {
                 </div>
             </div>
 
-            <p id={"para"}> Ce projet a été réalisé pour tester, apprendre et comprendre la librairie <a href={"https://react.dev"} target={"_blank"}>React</a> </p>
+            <p id={"para"}> Ce projet a été réalisé pour tester, apprendre et comprendre la  librairie <a href={"https://react.dev"} target={"_blank"}>React</a> </p>
 
         </>
     );

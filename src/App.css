@@ -40,9 +40,37 @@ html, body {
 }
 
 
+
 /* Styles de la checkbox de la navbar */
 .navbar_checkbox {
     margin-left: auto; /* Pousse la checkbox vers la droite */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555555;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+/* Style de la checkbox lorsqu'elle est cochée */
+.navbar_checkbox:checked {
+    background-color: #555555;
+    border-color: #222222;
+    position: relative;
+}
+
+
+/* Ajout d'un pseudo élément à la checkbox lorsqu'elle est cochée */
+.navbar_checkbox:checked::after {
+    content: '✔';
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: -2px;
+    left: 3px;
 }
 
 
@@ -51,6 +79,7 @@ html, body {
     flex: 1;
     padding: 20px;
 }
+
 
 
 /* Styles du footer */
@@ -94,7 +123,7 @@ footer {
 
 /* */
 #lightBtnNavbar:hover {
-    transform: scale(1.1); /* Augement légèrement la taille du bouton */
+    transform: scale(1.1);
     box-shadow: 0 4px 10px #4e4e4e;
 }
 
@@ -117,14 +146,14 @@ footer {
 
 /* Thème noir de la navbar*/
 #darkNavbar {
-    background-color: #333;
+    background-color: #333333;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
 /* Thème noir des boutons */
 #darkBtnNavbar {
-    background-color: #555;
+    background-color: #555555;
     color: white;
 }
 
@@ -133,7 +162,7 @@ footer {
 #darkBtnNavbar:hover {
     background-color: #1e90ff;
     color: white;
-    transform: scale(1.1); /* Augement légèrement la taille du bouton */
+    transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(30, 144, 255, 0.4);
 }
 
