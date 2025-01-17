@@ -10,7 +10,7 @@ function App() {
     const [pageTheme, setPageTheme] = useState("lightPage"); /* Permet de gérer le thème séléctionné */
     const [navbarTheme, setNavbarTheme] = useState("lightNavbar");
     const [btnNavbarTheme, setBtnNavbarTheme] = useState("lightBtnNavbar");
-    const [txtTheme, setTxtTheme] = useState("lightInfo"); /* Permet de gérer le thème de la zone info dans Home */
+    const [txtTheme, setTxtTheme] = useState("lightTxt"); /* Permet de gérer le thème de la zone info dans Home */
     const [infoTheme, setInfoTheme] = useState("lightInfo"); /* Permet de gérer le thème du tableau dans Info */
 
     /* Permet de changer le thème de la page */
