@@ -75,7 +75,7 @@ function Home({ infoTheme }) {
                     <p> On peut notamment : </p>
                     <ul>
                         <li> Modifier le style du texte (couleur, police, taille, soulignement, ect...) </li>
-                        <li> Ordonnée l'affichage des élement (centrer, mettre sur une seul ligne, ect...) </li>
+                        <li> Ordonner l'affichage des élement (centrer, mettre sur une seul ligne, ect...) </li>
                         <li> Rendre le site responsive </li>
                     </ul>
                 </div>}
